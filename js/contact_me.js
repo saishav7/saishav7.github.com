@@ -24,7 +24,7 @@ $(function() {
       $this.html("<i class='fa fa-spinner fa-spin'></i>");
       var body = $.ajax({
         url:
-          "https://us-central1-personal-site-214302.cloudfunctions.net/sendEmail",
+          "https://us-central1-personal-site-214302.cloudfunctions.net/emailSender",
         type: "POST",
         data: {
           body:
